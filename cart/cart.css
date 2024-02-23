@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 1px;
+    background-color: whitesmoke;
+}
+.navbar{
+    height: 70px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    justify-content: space-between;
+}
+
+
+.logo{
+    height: 60px;
+    width : 60px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/011/598/887/original/ecommerce-logo-icon-free-vector.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbarItems{
+    list-style: none;
+    display: flex;
+    height: 40px;
+    font-size: 35px;
+    width: 500px;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer{
+    height: 170px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartPro{
+    box-shadow: 0px 6px 10px black; 
+}
+.del{
+    margin-left: 400px;
+    font-size: 20px;
+    /* border: 2px solid; */
+}
+
+
+.noProd{
+    /* display: block; */
+    height: 500px;
+    border: 2px solid;
+    /* background-color: black; */
+    border-radius: 20px;
+    
+
+}
+.img{
+    height: 500px;
+    width: 100vw;
+    border-radius: 20px;
+    position: relative;
+    background-image: url("https://www.nicepng.com/png/detail/285-2852098_no-cart-items-found-carrito-de-compras-icono.png");
+    background-position: left;
+    background-repeat: no-repeat; 
+    /* background-size: cover;  */
+
+}
+.shop{
+    position: absolute;
+    top: 60px;
+    left: 800px;
+}
+
